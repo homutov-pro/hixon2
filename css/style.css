@@ -23,7 +23,7 @@ body {
 }
 
 .main__header__logo {
-    margin-left: 16px;
+    margin: 0 16px 0 16px;
 }
 
 .main__header__logo, .main__header__nav, .main__header__nav li {
@@ -35,6 +35,7 @@ body {
 .main__header__nav {
    margin-bottom: 8px;
    margin-right: 3px;
+   max-width: 960px;
 }
 
 .main__header__nav li:last-child {
@@ -131,3 +132,37 @@ body {
     height: 670px;
     margin: 9px 15px 0 0;
 }
+
+
+/* about */
+
+.about {
+    background: #2a286d url(/img/about_bg.png) right 0 no-repeat;
+    padding: 130px 0 130px 0;
+}
+
+.about__information {
+
+}
+
+.about__title {
+    font-size: 33px;
+    font-family: "Roboto", sans-serif;
+    color: #ff9b65;
+    line-height: 105px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.about__my {
+    font-family: "Roboto", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    line-height: 50px;
+    max-width: 650px;
+    margin-top: 20px;
+    letter-spacing: normal;
+}
+/* end about */
