@@ -65,12 +65,10 @@ body {
 
 .header__main__slider {
     background: #323084 url(../img/main_slider_bg.png) 0 54px no-repeat;
-}
-
-.main__header__slider__padding {
     padding-top: 50px;
     padding-bottom: 80px;
 }
+
 
 .header__main__slider__text, .main__slider__agency__img {
     display: inline-block;
