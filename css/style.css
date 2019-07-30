@@ -19,7 +19,7 @@ body {
 
 .main__header {
     background-color: #2d2b7d;
-    padding: 43px 0;
+    padding: 42px 0;
 }
 
 .main__header__logo {
@@ -46,12 +46,16 @@ body {
 
 .main__header__nav li a {
     font-family: "Roboto", sans-serif;
-    color: #fff;
-    font-size: 18px;
     border-radius: 20px;
     text-decoration: none;
     padding: 14px 21px;
+    font-size: 18px;
     font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
 }
 
 .main__header__nav li a:hover, .main__header__nav__li__active {
@@ -60,7 +64,7 @@ body {
 }
 
 .header__main__slider {
-    background: #323084 url(../img/main_slider_bg.png) 0 52px no-repeat;
+    background: #323084 url(../img/main_slider_bg.png) 0 54px no-repeat;
 }
 
 .main__header__slider__padding {
@@ -86,7 +90,7 @@ body {
 .header__main__slider__text {
     min-height: 385px;
     width: 725px;
-    padding: 131px 0 0 10px;
+    padding: 132px 0 0 10px;
 }
 
 .header__main__slider__span {
@@ -130,7 +134,7 @@ body {
 .main__slider__agency__img {
     width: 435px;
     height: 670px;
-    margin: 9px 15px 0 0;
+    margin: 11px 0 0 1px;
 }
 
 
