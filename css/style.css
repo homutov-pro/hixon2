@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", "Arial", sans-serif;
 }
 
 * {
@@ -47,7 +48,6 @@ body {
 }
 
 .main__header__nav li a {
-    font-family: "Roboto", sans-serif;
     border-radius: 20px;
     text-decoration: none;
     padding: 14px 21px;
@@ -80,7 +80,6 @@ body {
 .header__main__slider__h1 {
     color: #fff;
     font-size: 60px;
-    font-family: "Roboto", sans-serif;
     text-shadow: 0px 4px 0px rgba(19, 19, 52, 0.42);
     margin: 0 0 -6px 2px;
     font-weight: 500;
@@ -96,7 +95,6 @@ body {
 
 .header__main__slider__span {
     font-size: 98px;
-    font-family: "Roboto", sans-serif;
     color: #fff;
     text-shadow: 0px 4px 0px rgba(19, 19, 52, 0.52);
     font-weight: 500;
@@ -106,7 +104,6 @@ body {
 
 .header__main__slider__p {
     font-size: 40px;
-    font-family: "Roboto", sans-serif;
     color: #fff;
     text-shadow: 0px 4px 0px rgba(19, 19, 52, 0.52);
     padding: 0;
@@ -117,7 +114,6 @@ body {
 
 .main__slider__portfolio__button {
     color: #fff;
-    font-family: "Roboto", sans-serif;
     font-size: 22px;
     font-weight: 500;
     letter-spacing: normal;
@@ -143,7 +139,21 @@ body {
 
 .about {
     background: #2a286d url(/img/about_bg.png) right 0 no-repeat;
-    padding: 100px 0 120px;
+    padding: 100px 0 86px;
+}
+
+.about .container {
+    position: relative;   
+}
+
+.about .container::after {
+    content: " ";
+    position: absolute;
+    background: url(/img/about__notebook.png) no-repeat;
+    width: 600px;
+    height: 611px;
+    top: 228px;
+    right: 2px;
 }
 
 .about__information {
@@ -152,14 +162,12 @@ body {
 
 .about__title {
     font-size: 33px;
-    font-family: "Roboto", sans-serif;
     color: #ff9b65;
     font-weight: bold;
     margin: 0;
 }
 
 .about__my {
-    font-family: "Roboto", sans-serif;
     font-size: 42px;
     font-weight: 500;
     color: #fff;
@@ -171,7 +179,6 @@ body {
 }
 
 .about__text {
-    font-family: "Roboto", sans-serif;
     font-size: 18px;
     line-height: 30px;
     font-weight: 500;
@@ -179,9 +186,35 @@ body {
     width: 590px;
     margin-top:37px;
 }
+
+.about__contact {
+    width: 560px;
+}
+
+.about__contact__list {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 45px 0 0;
+    padding: 0;
+}
+
+.about__contact__list__item {
+    list-style: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    max-width: 205px;
+    
+}
+
+.about__contact__list__item span {
+    color: #ffba90;
+}
 /* end about */
 
-
-/* @media screen and (min-width: 410px) {
-    .header__main__slider__text { padding: 131px 0 0 2px;}
-} */
