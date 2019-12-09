@@ -1,4 +1,4 @@
-body {
+ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto", "Arial", sans-serif;
@@ -62,7 +62,7 @@ body {
 
 .main__header__nav li a:hover, .main__header__nav__li__active {
     background-image: linear-gradient(45deg, #f14564, #ff8a65);
-    
+
 }
 
 .header__main__slider {
@@ -143,7 +143,7 @@ body {
 }
 
 .about .container {
-    position: relative;   
+    position: relative;
 }
 
 .about .container::after {
@@ -209,7 +209,7 @@ body {
     text-align: left;
     color: #fff;
     max-width: 205px;
-    
+
 }
 
 .about__contact__list__item span {
@@ -217,3 +217,47 @@ body {
 }
 /* end about */
 
+
+
+
+/* services */
+
+.services {
+  padding: 125px 0;
+  background: #373582 url("/img/services-bg.png") left center no-repeat;
+}
+
+.services__title {
+  color: #ff9b65;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 105.35px;
+}
+
+.services__block__container {
+  padding-top: 55px;
+}
+
+.services__block__box {
+  display: inline-block;
+  margin: 15px;
+  max-width: 356px;
+  min-height: 266px;
+  box-shadow: 0 11px 49px rgba(25, 34, 18, 0.31);
+  border-radius: 20px;
+  background: #bfbfbf url("/img/box__shadow.png") bottom left no-repeat;
+  background-image: linear-gradient(45deg, #514f9f 0%, #6b69c9 100%);
+}
+
+.services__block__title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.services__block__subtitle {
+  color: #eae9ff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+}
