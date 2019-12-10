@@ -239,6 +239,7 @@
 }
 
 .services__block__box {
+  padding: 30px;
   display: inline-block;
   margin: 15px;
   max-width: 356px;
@@ -246,7 +247,7 @@
   box-shadow: 0 11px 49px rgba(25, 34, 18, 0.31);
   border-radius: 20px;
   background: #bfbfbf url("/img/box__shadow.png") bottom left no-repeat;
-  background-image: linear-gradient(45deg, #514f9f 0%, #6b69c9 100%);
+  /* background-image: linear-gradient(45deg, #514f9f 0%, #6b69c9 100%); */
 }
 
 .services__block__title {
